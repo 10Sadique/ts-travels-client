@@ -1,6 +1,9 @@
 <h1>TS Travels App</h1>
 <p>Mock Travel Booking app with Routing and Authentication.</p>
-<p><a href="https://ts-travels.web.app/">Demo Link</a></p><h2>Technologies Used</h2>
+<p><a href="https://ts-travels.web.app/">Demo Link</a></p>
+<ul><li>Email: test@test.com</li><li>Password: 123456</li>
+</ul>
+<h2>Technologies Used</h2>
 <ul>
 <li>React</li>
 </ul><ul>
