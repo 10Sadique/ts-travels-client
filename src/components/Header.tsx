@@ -29,7 +29,7 @@ const Header: React.FC = () => {
             <Link to={`/destination`}>Destinations</Link>
             <Link to={`/blog`}>Blog</Link>
             {user?.uid ? (
-                <button onClick={handleSignOut}>Sign Out</button>
+                <span onClick={handleSignOut}>Sign Out</span>
             ) : (
                 <Link to={`/signin`}>Sign In</Link>
             )}
