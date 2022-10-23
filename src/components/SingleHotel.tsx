@@ -25,14 +25,16 @@ const SingleHotel = ({ hotel }: Props) => {
                     alt=""
                 />
             </div>
-            <div className="col-span-3">
+            <div className="col-span-3 flex flex-col">
                 <h1 className="font-bebas text-2xl mb-2">{name}</h1>
-                <p className="flex items-center text-gray-500 gap-1 text-sm mb-3">
-                    <MdLocationPin />
-                    <span>{location.location}</span>
-                </p>
-                <div className="flex items-center gap-1 text-yellow-400">
-                    {ratings}
+                <div className="flex-1">
+                    <p className="flex items-center text-gray-500 gap-1 text-sm mb-3">
+                        <MdLocationPin />
+                        <span>{location.location}</span>
+                    </p>
+                    <div className="flex items-center gap-1 text-yellow-400">
+                        {ratings}
+                    </div>
                 </div>
                 <div className="flex items-center justify-between">
                     <p className="font-extrabold text-2xl md:text-5xl mt-10">
